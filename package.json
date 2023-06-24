@@ -1,5 +1,5 @@
 {
-  "name": "mentoring-webpack-starter",
+  "name": "Cool Barber",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -11,7 +11,7 @@
     "eslint:fix": "eslint --fix --ext .js src"
   },
   "keywords": [],
-  "author": "",
+  "author": "Raman Martynau",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.18.9",
@@ -35,7 +35,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "dotenv-webpack": "^8.0.1",
+    "dotenv-webpack": "8.0.1",
     "reset.css": "^2.0.2"
   }
 }
