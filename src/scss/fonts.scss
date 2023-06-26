@@ -1,3 +1,5 @@
+
+
 /* FiraSans fonts */
 
 @font-face {
@@ -21,17 +23,30 @@
 /* PlayfairDisplay fonts */
 
 @font-face {
-    font-family: FiraSans;
+    font-family: PlayfairDisplay;
     font-weight: 900;
     font-style: normal;
     src: url('assets/fonts/PlayfairDisplay/PlayfairDisplay-Black.ttf') format("truetype");
 }
 
 @font-face {
-    font-family: FiraSans;
+    font-family: PlayfairDisplay;
     font-weight: 700;
     font-style: normal;
     src: url('assets/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf') format("truetype");
 }
 
 /* PlayfairDisplay fonts */
+
+/* ----------------------------------------------------- */
+
+/* Montserrat fonts */
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+    src: url('assets/fonts/Montserrat/Montserrat-Regular.ttf') format("truetype");
+}
+
+/* Montserrat fonts */
