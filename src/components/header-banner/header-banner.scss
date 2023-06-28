@@ -1,6 +1,8 @@
 .header-banner {
     height: 1000px;
     background: url('../../assets/images/banner.png');
+    background-repeat: no-repeat;
+    display: flex;
 }
 
 .promo-banner {
@@ -12,6 +14,10 @@
     width: 671px;
 }
 
-.pharagraph {
+.paragraph {
     width: 301px;
+}
+
+.button-small {
+    padding-top: 600px;
 }

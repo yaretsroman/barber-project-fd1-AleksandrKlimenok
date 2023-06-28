@@ -1,6 +1,7 @@
 @import './scss/fonts.scss';
 @import './scss/colors.scss';
 @import './scss/typography.scss';
+@import './scss/utils.scss';
 
 html {
     font-size: $mainFontSize;
@@ -11,4 +12,8 @@ body {
     color: $mainColor;
     font-family: $mainFontFamily;
     margin: 0;
+}
+
+.a {
+    text-decoration: none;
 }
