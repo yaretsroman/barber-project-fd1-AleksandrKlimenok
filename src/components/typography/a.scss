@@ -1,10 +1,13 @@
+@import '../../scss/colors.scss';
+
 .a1 {
-    text-decoration: none;
-    font-family: 'FiraSans';
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
-    text-transform: capitalize;
+  text-decoration: none;
+  font-family: 'FiraSans';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: map-get($whiteColors, 'white2');
 }
 
 .a2 {
@@ -14,6 +17,7 @@
   font-weight: 400;
   line-height: 19px;
   text-transform: capitalize;
+  color: map-get($whiteColors, 'white2');
 }
 
 .a3 {
@@ -23,6 +27,7 @@
   font-weight: 400;
   line-height: 27px;
   text-transform: capitalize;
+  color: map-get($whiteColors, 'white1');
 }
 
 .a4 {

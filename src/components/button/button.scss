@@ -1,0 +1,11 @@
+@import '../typography/button-text.scss';
+
+.btn {
+    cursor: pointer;
+    border: none;
+    background: none;
+    &--large {
+        @extend .button-text-large;
+        // padding: 10px, 25px, 10px, 25px;
+    }
+}
