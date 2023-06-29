@@ -7,5 +7,6 @@ import './components/top-navigation/top-navigation';
 import './components/header-banner/header-banner';
 import './components/button/button';
 import './components/benefits/benefits';
+import './components/about-us/about-us';
 
 console.log('Hello IT-academy student 🚀');

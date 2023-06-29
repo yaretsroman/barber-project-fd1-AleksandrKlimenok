@@ -1,0 +1,37 @@
+@import '../../scss/colors.scss';
+
+.about-us {
+    background-color: map-get($brownColors, 'brown2');
+    min-height: 870px;
+}
+
+.images-about-us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 300px);  
+    grid-gap: 20px;
+    grid-template-areas: 
+    'first third'
+    'second fourth';
+    &__first {
+        grid-area: first;
+    }
+    &__second {
+        grid-area: second;
+    }
+    &__third {
+        grid-area: third;
+    }
+    &__fourth {
+        grid-area: fourth;
+    }
+}
+
+.h4-subtitle {
+  width: 580px;
+}
+
+.about-us-button {
+    display: flex;
+    justify-content: space-evenly;
+}
