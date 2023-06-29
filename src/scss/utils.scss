@@ -1,11 +1,42 @@
-.pt {
-    &-100 {
-        padding-top: 100px;
+$offsets: (
+  100: 100px,
+  60: 60px,
+  600: 600px,
+
+);
+
+@each $key, $value in $offsets {
+    .pt-#{$key} {
+        padding-top: $value;
     }
 }
 
-.pl {
-    &-60 {
-        padding-left: 60px;
+@each $key, $value in $offsets {
+    .pb-#{$key} {
+        padding-bottom: $value;
+    }
+}
+
+@each $key, $value in $offsets {
+    .pl-#{$key} {
+        padding-left: $value;
+    }
+}
+
+@each $key, $value in $offsets {
+    .pr-#{$key} {
+        padding-right: $value;
+    }
+}
+
+@each $key, $value in $offsets {
+    .mt-#{$key} {
+        margin-top: $value;
+    }
+}
+
+@each $key, $value in $offsets {
+    .mb-#{$key} {
+        margin-bottom: $value;
     }
 }
