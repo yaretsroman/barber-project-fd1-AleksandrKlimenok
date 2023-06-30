@@ -1,0 +1,9 @@
+@import '../../scss/colors.scss';
+
+.testimonials {
+    background-color: map-get($brownColors, 'brown2');
+}   
+
+.subtitle1 {
+    width: 277px;
+}

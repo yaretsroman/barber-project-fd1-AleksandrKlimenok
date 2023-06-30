@@ -32,11 +32,12 @@
 
 .a4 {
   text-decoration: none;
-  font-family: Fira Sans;
+  font-family: 'FiraSans';
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
   text-transform: capitalize;
+  color: map-get($orangeColors, 'orange1');
 }
 
 .a5 {
