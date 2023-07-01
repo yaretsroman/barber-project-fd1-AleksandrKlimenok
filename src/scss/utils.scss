@@ -5,7 +5,7 @@ $offsets: (
   60: 60px,
   500: 500px,
   600: 600px,
-
+  20: 20px,
 );
 
 @each $key, $value in $offsets {

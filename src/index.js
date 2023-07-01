@@ -12,5 +12,6 @@ import './components/benefits/benefits';
 import './components/about-us/about-us';
 import './components/testimonials/testimonials';
 import './components/barbers-banner/barbers-banner';
+import './components/price/price';
 
 console.log('Hello IT-academy student 🚀');

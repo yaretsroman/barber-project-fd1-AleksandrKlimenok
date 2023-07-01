@@ -1,9 +1,12 @@
+@import '../../scss/colors.scss';
+
 .span1 {
    font-family: 'FiraSans';
    font-size: 16px;
    font-weight: 400;
    line-height: 28px;
    text-transform: capitalize;
+   color: map-get($whiteColors, 'white2');
 }
   
 .span2 {
@@ -12,6 +15,8 @@
   font-weight: 700;
   line-height: 24px;
   text-transform: capitalize;
+  color: map-get($whiteColors, 'white1');
+
 }
 
 .span3 {
@@ -20,6 +25,7 @@
   font-weight: 400;
   line-height: 25px;
   text-transform: capitalize;
+  color: map-get($whiteColors, 'white3');
 }
 
 .span4 {

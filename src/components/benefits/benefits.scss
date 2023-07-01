@@ -2,8 +2,7 @@
 
 .benefits-items {
     display: flex;
-    justify-content: space-between;
-    // background-color: map-get($brownColors, 'brown1');
+    justify-content: space-evenly;
 }
 
 .benefits {

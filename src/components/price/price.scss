@@ -1,0 +1,15 @@
+@import '../../scss/colors.scss';
+
+.our-price{
+    min-height: 800px;
+    background-color: map-get($brownColors, 'brown1');
+}
+
+.services {
+    display: flex;
+}
+
+.haircut-price {
+    display: flex;
+    justify-content: space-evenly;
+}
