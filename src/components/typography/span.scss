@@ -20,7 +20,7 @@
 }
 
 .span3 {
-  font-family: Fira Sans;
+  font-family: 'FiraSans';
   font-size: 14px;
   font-weight: 400;
   line-height: 25px;
@@ -42,6 +42,7 @@
   font-weight: 400;
   line-height: 17px;
   text-transform: capitalize;
+  color: map-get($whiteColors, 'white2');
 }
 
 .span6 {
@@ -50,4 +51,6 @@
   font-weight: 400;
   line-height: 16px;
   text-transform: capitalize;
+  color: map-get($whiteColors, 'white1');
+
 }

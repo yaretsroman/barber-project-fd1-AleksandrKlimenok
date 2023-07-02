@@ -13,5 +13,9 @@ import './components/about-us/about-us';
 import './components/testimonials/testimonials';
 import './components/barbers-banner/barbers-banner';
 import './components/price/price';
+import './components/consultation/consultation';
+import './components/form/form';
+import './components/contacts/contacts';
+import './components/footer/footer';
 
 console.log('Hello IT-academy student 🚀');
