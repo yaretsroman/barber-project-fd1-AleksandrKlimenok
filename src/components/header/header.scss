@@ -1,34 +1,46 @@
 @import '../../scss/colors.scss';
+@import '../../scss/breakpoints.scss';
 
 .header {
     padding-top: 38px;
     background-color: map-get($brownColors, 'brown2');
     min-height: 870px;
 
-    &__top-navigation {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    // &__top-navigation {
+    //     display: flex;
+    //     justify-content: space-between;
+    //     align-items: center;
+    // }
 
     &__logo {
         position: absolute;
     }
-
-    &__item {
-        display: flex;
-        justify-content: space-between;
-    }
 }
 
-.user-links {
-    &__item {
-        margin-left: 30px;
-    }
-    
+.top-navigation {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.navigation__link {
-    margin-left: 30px;  
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
 }
 
+.address-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.address {
+    display: flex;
+    width: 156px;
+    height: 38px;
+}
+
+.telephone {
+    display: flex;
+    justify-content: space-between;
+    width: 197px;
+    height: 48px;
+}

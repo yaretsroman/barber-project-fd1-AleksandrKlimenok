@@ -17,5 +17,6 @@ import './components/consultation/consultation';
 import './components/form/form';
 import './components/contacts/contacts';
 import './components/footer/footer';
+import 'bootstrap/dist/css/bootstrap-grid.css';
 
 console.log('Hello IT-academy student 🚀');
