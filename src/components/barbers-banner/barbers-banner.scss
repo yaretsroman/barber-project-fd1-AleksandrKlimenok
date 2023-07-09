@@ -6,12 +6,9 @@
    &__item {
     display: flex;
     justify-content: space-evenly;
+    
    }
 
-  
-}
-
-.barbers-banner {
    &__next-btn,
    &__prev-btn {
     &::after {
@@ -28,4 +25,8 @@
     background-repeat: no-repeat;
     background-position: center center;
    }
+}
+
+.swiper-wrapper {
+   
 }

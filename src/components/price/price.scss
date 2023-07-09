@@ -5,6 +5,12 @@
     background-color: map-get($brownColors, 'brown1');
 }
 
+.our-price-description {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .services {
     display: flex;
 }
@@ -12,4 +18,5 @@
 .haircut-price {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }

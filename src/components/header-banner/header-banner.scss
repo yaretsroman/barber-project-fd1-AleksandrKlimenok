@@ -1,20 +1,23 @@
 .header-banner {
+    width: 1180px;
     height: 1000px;
     background: url('../../assets/images/banner.png');
     background-repeat: no-repeat;
-    display: flex;
 }
 
 .promo-banner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.banner-title {
-    width: 671px;
+@media screen and (max-width: 990px) {
+    .promo-banner {
+        justify-content: center;
+        position: absolute;
+    }
 }
 
-.paragraph {
+.right-block {
     width: 301px;
 }
-

@@ -3,14 +3,14 @@
 
 .btn {
      
-    &--large {
+    &__large {
         cursor: pointer;
         border-color: map-get($whiteColors, 'white1');
         @extend .button-text-large;
         padding: 10px, 25px, 10px, 25px;
         background: transparent;
-        width: 221px; 
-        height: 40px;
+        width: 194px;
+        height: 68px; 
     }
 
     &--small {
