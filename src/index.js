@@ -19,5 +19,6 @@ import './components/contacts/contacts';
 import './components/footer/footer';
 import 'bootstrap/dist/css/bootstrap-grid.css';
 import './components/drawer/drawer';
+import './services/firebase.service';
 
 console.log('Hello IT-academy student 🚀');
