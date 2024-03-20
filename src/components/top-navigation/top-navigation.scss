@@ -22,6 +22,11 @@
 .navigation {
     display: flex;
     justify-content: space-evenly;
+    &__link {
+        &:hover {
+            color: map-get($orangeColors, 'orange1');
+        }
+    }
 }
 
 .address-links {
@@ -33,6 +38,11 @@
     display: flex;
     width: 156px;
     height: 38px;
+    &__link {
+        &:hover {
+            color: map-get($orangeColors, 'orange1');
+        }
+    }
 }
 
 .telephone {
@@ -40,4 +50,9 @@
     justify-content: space-between;
     width: 197px;
     height: 38px;
+    &__link {
+        &:hover {
+            color: map-get($orangeColors, 'orange1');
+        }
+    }
 }

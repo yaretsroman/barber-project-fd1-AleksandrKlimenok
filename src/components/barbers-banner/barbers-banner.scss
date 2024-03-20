@@ -6,7 +6,6 @@
    &__item {
     display: flex;
     justify-content: space-evenly;
-    
    }
 
    &__next-btn,
@@ -27,6 +26,10 @@
    }
 }
 
-.swiper-wrapper {
-   
+.barber-item {
+    &__link {
+        &:hover {
+            color: map-get($whiteColors, 'white1');
+        }
+    }
 }
